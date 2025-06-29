@@ -18,6 +18,18 @@ cp .env.example .env
 OPENAI_API_KEY="（ここにOpenAIのAPIキーを入れる）"
 ```
 
+3. パッケージのインストール
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
 3. 実行
 
 ```bash
