@@ -30,7 +30,7 @@ pnpm install
 bun install
 ```
 
-3. 実行
+4. dev サーバー立ち上げ
 
 ```bash
 npm run dev
