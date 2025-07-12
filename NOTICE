@@ -1,0 +1,11 @@
+このプロジェクトには、以下の第三者のオープンソースコンポーネントが含まれています。
+
+- Next.js（MITライセンス）: https://github.com/vercel/next.js
+- React（MITライセンス）: https://github.com/facebook/react
+- React DOM（MITライセンス）: https://github.com/facebook/react
+- Tailwind CSS（MITライセンス）: https://github.com/tailwindlabs/tailwindcss
+- OpenAI SDK（MITライセンス）: https://github.com/openai/openai-node
+
+これらのコンポーネントは、それぞれの元のライセンス（MIT）に基づいて配布されており、本リポジトリに適用される商用利用制限の対象外です。
+
+詳細については、それぞれのリポジトリをご確認ください。
