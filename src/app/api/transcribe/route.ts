@@ -29,8 +29,15 @@ export const POST = async (req: Request) => {
     return new Response(JSON.stringify({ text: transcription.text }), {
       status: 200,
     });
-  } catch (e) {
-    return new Response(JSON.stringify({ error: "Internal server error" }), {
+  } catch (e: unknown) {
+    let errorMessage = "Unknown error";
+    if (e instanceof Error) {
+      errorMessage = e.message;
+    } else if (typeof e === "string") {
+      errorMessage = e;
+    }
+
+    return new Response(JSON.stringify({ error: errorMessage }), {
       status: 500,
     });
   }
